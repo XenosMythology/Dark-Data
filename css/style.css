@@ -302,7 +302,6 @@ header input[id='open']:checked ~ .mobile-menu {
  
    .data .open{
     visibility: visible;
-    font-size: 50px;
    }
     .data > i {
         visibility: hidden;
