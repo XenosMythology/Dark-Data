@@ -300,7 +300,7 @@ header input[id='open']:checked ~ .mobile-menu {
 
 @media (max-width: 1100px) {
  
-   .data .open{
+  .data .open{
     visibility: visible;
    }
     .data > i {
