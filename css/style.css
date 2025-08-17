@@ -299,10 +299,11 @@ header input[id='open']:checked ~ .mobile-menu {
 /* end mobil menu */
 
 @media (max-width: 1100px) {
-    .fa-bars {
-        display: inline-block;
-    }
-
+ 
+   .data .open{
+    visibility: visible;
+    font-size: 50px;
+   }
     .data > i {
         visibility: hidden;
     }
@@ -311,8 +312,7 @@ header input[id='open']:checked ~ .mobile-menu {
         visibility: hidden;
     }
 
-    .mobile-menu {
-    }
+  
 
     nav ul,
     .data {
